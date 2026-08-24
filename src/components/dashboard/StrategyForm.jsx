@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-import { supabase } from "@/services/supabase";
 import { useAuth } from "@/context/AuthContext";
 
 function StrategyForm({ onInterpret }) {
